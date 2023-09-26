@@ -1,0 +1,15 @@
+{
+  "name": "saturn-checker-cli",
+  "version": "1.0.0",
+  "description": "Saturn Checker CLI",
+  "main": "saturn.ts",
+  "scripts": {
+    "start": "ts-node saturn.ts"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "bin": {
+    "saturn": "./saturn.ts"
+  }
+}
